@@ -14,7 +14,21 @@ body {
     background-color:white;
     text-align: center;
 }
+
+header {
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+
+}
+
+header img {
+    width: 20%;
+}
+
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin: 2rem 0 0 2rem;
+    color: darkorange;
 }
