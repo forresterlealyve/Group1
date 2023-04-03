@@ -32,3 +32,35 @@ h1 {
     margin: 2rem 0 0 2rem;
     color: darkorange;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yvett Forrester" />
+    <meta name="description" content="boilerplate" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" 
+    rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>boilerplate</title>
+    </head>
+    </body>
+    <header>
+        <img src="images/Logo.jpg" alt="Logo">
+        <h1>Flippin' Burgers Ordering Menu </h1>
+    </header>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form>
+    </body>
+</html>
